@@ -48,10 +48,6 @@ h1, h4 {
     font-family: 'Fredoka One';
 }
 
-.description {
-    text-align: center;
-}
-
 .card {
     margin-top: 2rem;
     background-color: var(--tm-dark);
