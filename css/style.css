@@ -18,6 +18,10 @@
     clear: both;
 }
 
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
+}
 .container {
     width: 70%;
     margin: auto;
@@ -33,6 +37,15 @@ img {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+
+}
+
+h1 {
+    color: var(--tm-pink);
+}
+
+h1, h4 {
+    font-family: 'Fredoka One';
 }
 
 .description {
@@ -53,6 +66,12 @@ img {
 }
 
 h4 {
-    padding-top: 0.5rem;
+    padding-top: 0.7rem;
 }
 
+.email {
+    color: var(--tm-lightblue);
+}
+
+.job, .email {
+    padding-top: 0.3rem;
