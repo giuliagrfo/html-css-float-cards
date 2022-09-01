@@ -1,3 +1,11 @@
+:root {
+    --tm-dark: 0f0e17;
+    --tm-lightblue: 64bcdf;
+    --tm-pink: e73170;
+    --tm-white: fffffe;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +24,9 @@
 }
 
 img {
-    max-width: 20%;
+    max-width: 30%;
+    float: left;
+    margin-right: 0.5rem;
 }
 
 #site_header {
@@ -25,15 +35,24 @@ img {
     margin-bottom: 2rem;
 }
 
-p {
+.description {
     text-align: center;
 }
 
 .card {
     margin-top: 2rem;
+    background-color: var(--tm-dark);
+    color: var(--tm-white);
+    height: 80px;
 }
 
 .col_3 {
     width: calc(100% / 3);
     float: left;
+    padding-left: 2rem;
 }
+
+h4 {
+    padding-top: 0.5rem;
+}
+
