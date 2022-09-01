@@ -1,8 +1,8 @@
 :root {
-    --tm-dark: 0f0e17;
-    --tm-lightblue: 64bcdf;
-    --tm-pink: e73170;
-    --tm-white: fffffe;
+    --tm-dark: #0f0e17;
+    --tm-lightblue: #5ecae3;
+    --tm-pink: #e73170;
+    --tm-white: #fffffe;
 
 }
 
@@ -56,7 +56,7 @@ h1, h4 {
     margin-top: 2rem;
     background-color: var(--tm-dark);
     color: var(--tm-white);
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.7rem;
 }
 
 .col_3 {
@@ -81,3 +81,4 @@ footer {
     margin-top: 2rem;
     text-align: center;
 }
+
