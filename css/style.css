@@ -9,3 +9,31 @@
     display: table;
     clear: both;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    max-width: 20%;
+}
+
+#site_header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    text-align: center;
+}
+
+.card {
+    margin-top: 2rem;
+}
+
+.col_3 {
+    width: calc(100% / 3);
+    float: left;
+}
